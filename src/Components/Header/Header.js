@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/Header.css';
+import './Header.css';
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
 
