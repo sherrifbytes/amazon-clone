@@ -15,12 +15,17 @@ function Product() {
 
                 <div className="product__rating">
                     <p>🌟</p>
-                    <p>🌟</p>
-                    <p>🌟</p>
                 </div>
             </div>
+
+            <img
+                src="/images/thelean.jpg"
+                alt=""
+            />
+
+            <button>Add to Basket</button>
         </div>
-    )
+    );
 }
 
 export default Product
