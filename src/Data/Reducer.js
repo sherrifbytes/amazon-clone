@@ -8,6 +8,8 @@ export const initialState = {
 // i.e adding or removing from the basket
 const reducer = (state, action) => {
 
+    console.log(action);
+
     switch(action.type) {
         case 'ADD_TO_BASKET':
             return {

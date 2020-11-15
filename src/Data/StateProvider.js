@@ -1,11 +1,11 @@
 import React, { createContext, useContext, useReducer } from "react";
-import { initialState } from "./Reducer";
+// import { initialState } from "./Reducer";
 
 // this prepares the data layer
 export const StateContext = createContext();
 
 // wraps our app and provides data layer to every component
-export const StateProvider = ({ reducer, intialState, children }) => (
+export const StateProvider = ({ reducer, initialState, children }) => (
     <StateContext.Provider value = { useReducer(reducer, initialState)}>
         { children }
     </StateContext.Provider>
