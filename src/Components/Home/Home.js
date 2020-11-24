@@ -18,7 +18,7 @@ function Home() {
                     <Product 
                         id="12321341"
                         title='The lean startup: How Constant Innovation Creates Radically Successful Businesses Paperback'
-                        pri={11.96}
+                        price={11.96}
                         image="./images/thelean.jpg"
                         rating={3}
                     />
