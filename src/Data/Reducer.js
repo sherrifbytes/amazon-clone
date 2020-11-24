@@ -4,6 +4,10 @@ export const initialState = {
     basket: [],
 };
 
+// Selector
+export const getBasketTotal = (basket) => 
+    basket?.reduce((amount, item) => item.price + amount, 0);
+
 // takes state of the application the action in question
 // i.e adding or removing from the basket
 const reducer = (state, action) => {
